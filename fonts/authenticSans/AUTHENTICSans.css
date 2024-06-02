@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'AUTHENTICSans';
+    src:    url('AUTHENTICSans-60.woff') format('woff'),
+            url('AUTHENTICSans-60.woff2') format('woff2');
+    font-weight: 60;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AUTHENTICSans';
+    src:    url('AUTHENTICSans-90.woff') format('woff'),
+            url('AUTHENTICSans-90.woff2') format('woff2');
+    font-weight: 90;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AUTHENTICSans';
+    src:    url('AUTHENTICSans-130.woff') format('woff'),
+            url('AUTHENTICSans-130.woff2') format('woff2');
+    font-weight: 130;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AUTHENTICSans';
+    src:    url('AUTHENTICSans-150.woff') format('woff'),
+            url('AUTHENTICSans-150.woff2') format('woff2');
+    font-weight: 150;
+    font-style: normal;
+}

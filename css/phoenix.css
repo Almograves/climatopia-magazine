@@ -1,0 +1,32 @@
+.phoenixVisual {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    background-color: red; /*for debugging*/
+}
+
+.phoenixVisual-sky {
+    grid-row: 1 / 2;
+
+    background: rgb(255,252,235);
+background: linear-gradient(0deg, rgb(245, 250, 240) 10%, rgb(142, 220, 224) 100%);
+}
+
+.phoenixVisual-sand {
+    grid-row: 2 / 4;
+
+    background: rgb(106,28,13);
+    background: linear-gradient(0deg, rgba(106,28,13,1) 0%, rgba(210,137,18,1) 35%, rgba(255,239,208,1) 100%);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phoenixVisual-icon {
+    width: 40%;
+}

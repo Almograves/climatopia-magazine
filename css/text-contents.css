@@ -1,0 +1,89 @@
+section {
+    counter-increment: section-counter;
+    string-set: section-title attr(data-section);
+    string-set: section-long-title attr(data-long-title)
+}
+
+h1 {
+    string-set: full-title attr(data-book-title);
+    string-set: short-title content(text);
+    font-family: Messapia;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 48pt;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    font-size: 30pt;
+    margin: 0mm 5mm 3mm;
+    font-family: Messapia;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+
+h2::before {
+    content: "Section " counter(section-counter) ": ";
+}
+
+P {
+    margin: 3mm 0mm;
+}
+
+ul {
+    margin: 3mm 0mm;
+    padding-inline-start: 9mm;
+    font-family: "AUTHENTICSans", sans-serif;
+    letter-spacing: normal;
+}
+
+
+
+
+
+
+/* CLASSES */
+
+.chapter-opening-block-holder {
+    width: 120mm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEE;
+}
+
+.chapter-opening-block {
+    width: 110mm;
+}
+
+.chapter-opening-text {
+    font-family: 'Sigoli-Micro', serif;
+    font-family: "AUTHENTICSans", sans-serif;
+    font-family: "Messapia", serif;
+    font-size: 14pt;
+}
+
+.chapter-text-holder {
+    font-family: 'Sigoli-Micro', serif;
+    font-size: 10pt;
+    letter-spacing: -0.3mm;
+    width: 80mm;
+}
+
+.h2-background {
+    height: 10mm;
+    width: 100mm;
+    margin: 10mm 0mm;
+
+    background: var(--sectionColor2);
+
+    position: absolute;
+}
+
+.li-title {
+    /* font-family: "Messapia", serif;
+    font-family: 'Sigoli-Micro', serif; */
+    font-weight: 130;
+}

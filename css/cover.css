@@ -1,0 +1,19 @@
+@page:first {
+    margin: 7mm;
+
+    @top-center {
+        content: none;
+    }
+
+    @right-top {
+        content: none;
+    }
+
+    @bottom-center {
+        content: none;
+    }
+
+    @bottom-right-corner {
+        content: none   ;
+    }
+}

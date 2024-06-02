@@ -1,0 +1,27 @@
+@page:nth(2) {
+    margin: 7mm;
+
+    @top-center {
+        content: none;
+    }
+
+    @left-top {
+        content: none;
+    }
+
+    @bottom-center {
+        content: none;
+    }
+
+    @bottom-left-corner {
+        content: none   ;
+    }
+}
+
+.pre-chapters {
+    counter-reset: section-counter;
+}
+
+#cover-inside {
+    counter-reset: page-counter;
+}

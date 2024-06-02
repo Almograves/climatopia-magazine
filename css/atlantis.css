@@ -1,0 +1,37 @@
+.atlantisVisual {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    background-color: red; /*for debugging*/
+}
+
+.atlantisVisual-sky {
+    grid-row: 1 / 2;
+
+    background: rgb(237,236,255);
+    background: linear-gradient(0deg, rgba(237,236,255,1) 0%, rgba(143,209,255,1) 40%, rgb(75, 172, 224) 100%);
+}
+
+.atlantisVisual-sea {
+    grid-row: 2 / 4;
+
+    background: rgb(35,2,41);
+    background: linear-gradient(0deg, rgba(35,2,41,1) 0%, rgba(58,57,166,1) 60%, rgb(112, 165, 226) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atlantisVisual-icon {
+    width: 40%;
+}
+
+#atlantis {
+    --sectionColor1: #1E90FF;
+    --sectionColor2: linear-gradient(0deg, rgba(237,236,255,1) 0%, rgba(143,209,255,1) 40%, rgb(75, 172, 224) 100%);
+}

@@ -1,0 +1,207 @@
+/*
+var(--pagedjs-pagebox-width) for the width of your page
+var(--pagedjs-pagebox-height) for the height of your page
+*/
+
+:root {
+    font-family: 'AUTHENTICSans', sans-serif;
+    font-weight: 90;
+    color: black;
+}
+
+/* p {
+    font-family: 'Sigoli-Micro', sans-serif;
+}
+
+span {
+    font-family: 'VG5000', sans-serif;
+} */
+
+@page {
+    size: 148mm 210mm;
+
+    margin: 14mm;
+
+    @top-center {
+        align-items: end;
+        margin-bottom: 2mm;
+    }
+
+    @bottom-center {
+        content: string(short-title);
+        align-items: start;
+        margin-top: 2mm;
+        text-transform: uppercase;
+    }
+}
+
+.footnote {
+    margin: 3mm 0mm 3mm 65mm;
+    border-top: dashed var(--sectionColor1) 0.7mm;
+    padding-top: 2mm;
+
+    font-family: "VG5000", sans-serif;
+    font-size: 8pt;
+    line-height: 3mm;
+
+    text-align: end;
+
+    float: footnote;
+}
+
+::footnote-call {
+    content: "[" counter(footnote, loweralpha) "]";
+    color: var(--sectionColor1);
+    font-size: 8pt;
+    line-height: 0;
+}
+
+::footnote-marker {
+    content: counter(footnote, loweralpha) ". ";
+    color: var(--sectionColor1);
+    font-size: 10pt;
+    line-height: 0;
+}
+
+@page:left {
+    @top-left-corner {
+        content: element(runningIcon);
+        align-items: end;
+    }
+
+    @top-center {
+        content: string(section-title) " - " string(section-long-title);
+    }
+
+    /* @left-top {
+        content: string(full-book-title);
+
+        width: 100mm;
+        height: 14mm;
+        transform: rotate(-90deg);
+        transform-origin:  left top;
+        position: relative;
+        top: 140mm;        
+    } */
+
+    /* @bottom-left {
+        content: string(full-book-title);
+        align-items: start;
+        margin-top: 2mm;
+    } */
+
+    @bottom-left-corner {
+        content: counter(page-counter);
+    }
+}
+
+@page:right {
+    @top-right-corner {
+        content: element(runningIcon);
+        align-items: end;
+    }
+
+    @top-center {
+        content: "Section " counter(section-counter) ": " string(section-title);
+    }
+
+    /* @right-top {
+        content: string(book-title);
+
+        width: 100mm;
+        height: 14mm;
+        transform: rotate(90deg);
+        transform-origin: left bottom;
+        position: relative;
+        top: 26mm;    
+    } */
+
+    /* @bottom-right {
+        content: string(full-book-title);
+        align-items: start;
+        margin-top: 2mm;
+    } */
+
+    @bottom-right-corner {
+        content: counter(page-counter);
+    }
+}
+
+.pagedjs_margin-top-right-corner .pagedjs_margin-content {
+    margin-bottom: 2mm;
+    margin-left: 2mm;
+
+    display: flex;
+    justify-content: start;
+}
+
+.pagedjs_margin-top-left-corner .pagedjs_margin-content {
+    margin-bottom: 2mm;
+    margin-right: 2mm;
+
+    display: flex;
+    justify-content: end;
+}
+
+.chapter-icon {
+    position: running(runningIcon);
+
+    height: 5mm;
+    width: 5mm;
+}
+
+.pagedjs_margin-right-top .pagedjs_margin-content {
+    margin-top: 7mm;
+}
+
+.pagedjs_margin-left-top .pagedjs_margin-content {
+    margin-top: 7mm;
+}
+
+.pagedjs_margin-bottom-left-corner,
+.pagedjs_margin-bottom-right-corner {
+    align-items: start !important;
+    margin-top: 2mm;
+}
+
+.pagedjs_margin-bottom-left-corner *,
+.pagedjs_margin-bottom-right-corner * {
+    font-family: 'VG5000', sans-serif !important;
+    font-size: 14pt !important;
+    /* font-family: 'Sigoli-Micro', sans-serif !important;
+    font-family: 'AUTHENTICSans', sans-serif !important;
+    font-weight: 90 !important;
+    font-size: 14pt !important;
+    height: 7mm; */
+    /* font-weight: bold !important;
+    font-size: 12pt !important; */
+}
+
+
+.pagedjs_margin-content {
+    font-family: 'Messapia', 'Times New Roman', Times, serif;
+    font-weight: normal;
+    /* text-transform: uppercase; */
+    font-size: 10pt;
+}
+
+
+
+
+/* CHAPTERS */
+
+.chapter {
+    height: 100%;
+}
+
+.page {
+    break-after: page;
+    height: 100%;
+
+    counter-increment: page-counter;
+}
+
+.chapterVisual {
+    /* margin-right: 14mm; */
+    padding: 10mm;
+}

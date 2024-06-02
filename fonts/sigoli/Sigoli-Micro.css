@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Sigoli-Micro';
+    src:    url('Sligoil-Micro.woff') format('woff'),
+            url('Sligoil-Micro.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
