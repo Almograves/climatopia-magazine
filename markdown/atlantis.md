@@ -13,6 +13,9 @@ Sea-levels are rising as a result of three factors all caused by global warming:
 
 This trend is increasing, with the yearly rise in sea-level accelerating.
 
-(https://science.nasa.gov/earth/climate-change/new-study-finds-sea-level-rise-accelerating/
+This is causing islands across the world to disappear underwater and thousands of coastal cities are threatened of sharing the same fate. 
 
-SROCC. 2019 IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (eds H-O Pörtner et al.). In press.)
+(https://science.nasa.gov/earth/climate-change/new-study-finds-sea-level-rise-accelerating/)
+
+SROCC. 2019 IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (eds H-O Pörtner et al.). In press.
+

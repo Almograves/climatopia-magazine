@@ -1,9 +1,3 @@
-section {
-    counter-increment: section-counter;
-    string-set: section-title attr(data-section);
-    string-set: section-long-title attr(data-long-title)
-}
-
 h1 {
     string-set: full-title attr(data-book-title);
     string-set: short-title content(text);
@@ -26,6 +20,10 @@ h2 {
 
 h2::before {
     content: "Section " counter(section-counter) ": ";
+}
+
+h3 {
+    string-set: page-title content(text);
 }
 
 P {
@@ -51,7 +49,9 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #EEE;
+    /* background-color: #EEE; */
+
+    border-radius: 1mm;
 }
 
 .chapter-opening-block {
@@ -63,19 +63,26 @@ ul {
     font-family: "AUTHENTICSans", sans-serif;
     font-family: "Messapia", serif;
     font-size: 14pt;
+    font-weight: bold;
 }
 
 .chapter-text-holder {
     font-family: 'Sligoli-Micro', serif;
     font-size: 10pt;
     letter-spacing: -0.3mm;
-    width: 80mm;
+    width: 120mm;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4mm;
 }
 
 .h2-background {
     height: 10mm;
-    width: 100mm;
+    width: 89mm;
     margin: 10mm 0mm;
+
+    border-radius: 0mm 5mm 5mm 0mm;
 
     background: var(--sectionColor2);
 

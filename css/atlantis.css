@@ -35,3 +35,11 @@
     --sectionColor1: #1E90FF;
     --sectionColor2: linear-gradient(0deg, rgba(237,236,255,1) 0%, rgba(143,209,255,1) 40%, rgb(75, 172, 224) 100%);
 }
+
+#atlantis-chapterOpener-text {
+    position: absolute;
+}
+
+#atlantis-chapter-opening-block-holder {
+    box-shadow: rgba(112, 165, 226, 0.743) 10mm 0mm 10mm -10mm inset, rgba(112, 165, 226, 0.743) -10mm 0mm 10mm -10mm inset;
+}

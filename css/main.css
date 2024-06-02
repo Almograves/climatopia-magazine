@@ -9,6 +9,10 @@ var(--pagedjs-pagebox-height) for the height of your page
     color: black;
 }
 
+.hidden {
+    display: none;
+}
+
 /* p {
     font-family: 'Sligoli-Micro', sans-serif;
 }
@@ -36,7 +40,7 @@ span {
 }
 
 .footnote {
-    margin: 3mm 0mm 3mm 65mm;
+    margin: 3mm 0mm 3mm 62mm;
     border-top: dashed var(--sectionColor1) 0.7mm;
     padding-top: 2mm;
 
@@ -53,14 +57,13 @@ span {
     content: "[" counter(footnote, loweralpha) "]";
     color: var(--sectionColor1);
     font-size: 8pt;
-    line-height: 0;
+    font-family: "VG5000", sans-serif;
 }
 
 ::footnote-marker {
     content: counter(footnote, loweralpha) ". ";
     color: var(--sectionColor1);
     font-size: 10pt;
-    line-height: 0;
 }
 
 @page:left {
@@ -68,28 +71,28 @@ span {
         content: element(runningIcon);
         align-items: end;
     }
-
+    
     @top-center {
         content: string(section-title) " - " string(section-long-title);
     }
-
-    /* @left-top {
-        content: string(full-book-title);
-
+    
+    @left-top {
+        content: string(page-title);
+        
         width: 100mm;
         height: 14mm;
         transform: rotate(-90deg);
         transform-origin:  left top;
         position: relative;
         top: 140mm;        
-    } */
+    }
 
     /* @bottom-left {
         content: string(full-book-title);
         align-items: start;
         margin-top: 2mm;
     } */
-
+    
     @bottom-left-corner {
         content: counter(page-counter);
     }
@@ -100,28 +103,28 @@ span {
         content: element(runningIcon);
         align-items: end;
     }
-
+    
     @top-center {
         content: "Section " counter(section-counter) ": " string(section-title);
     }
-
-    /* @right-top {
-        content: string(book-title);
-
+    
+    @right-top {
+        content: string(page-title);
+        
         width: 100mm;
         height: 14mm;
         transform: rotate(90deg);
         transform-origin: left bottom;
         position: relative;
         top: 26mm;    
-    } */
-
+    }
+    
     /* @bottom-right {
         content: string(full-book-title);
         align-items: start;
         margin-top: 2mm;
     } */
-
+    
     @bottom-right-corner {
         content: counter(page-counter);
     }
@@ -130,7 +133,7 @@ span {
 .pagedjs_margin-top-right-corner .pagedjs_margin-content {
     margin-bottom: 2mm;
     margin-left: 2mm;
-
+    
     display: flex;
     justify-content: start;
 }
@@ -138,14 +141,14 @@ span {
 .pagedjs_margin-top-left-corner .pagedjs_margin-content {
     margin-bottom: 2mm;
     margin-right: 2mm;
-
+    
     display: flex;
     justify-content: end;
 }
 
 .chapter-icon {
     position: running(runningIcon);
-
+    
     height: 5mm;
     width: 5mm;
 }
@@ -177,7 +180,6 @@ span {
     font-size: 12pt !important; */
 }
 
-
 .pagedjs_margin-content {
     font-family: 'Messapia', 'Times New Roman', Times, serif;
     font-weight: normal;
@@ -185,10 +187,25 @@ span {
     font-size: 10pt;
 }
 
+/* .pagedjs_area {
+}
+
+.pagedjs_page_content {
+} */
+
+.pagedjs_footnote_area {
+    z-index: 2;
+}
 
 
 
 /* CHAPTERS */
+
+section {
+    counter-increment: section-counter;
+    string-set: section-title attr(data-section);
+    string-set: section-long-title attr(data-long-title)
+}
 
 .chapter {
     height: 100%;
