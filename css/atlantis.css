@@ -40,6 +40,6 @@
     position: absolute;
 }
 
-#atlantis-chapter-opening-block-holder {
-    box-shadow: rgba(112, 165, 226, 0.743) 10mm 0mm 10mm -10mm inset, rgba(112, 165, 226, 0.743) -10mm 0mm 10mm -10mm inset;
-}
+/* #atlantis-chapter-opening-block-holder {
+    box-shadow: rgba(112, 165, 226, 0.743) 25mm 0mm 20mm -20mm inset;
+} */

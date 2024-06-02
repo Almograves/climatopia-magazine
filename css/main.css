@@ -79,12 +79,12 @@ span {
     @left-top {
         content: string(page-title);
         
-        width: 100mm;
+        width: 182mm;
         height: 14mm;
         transform: rotate(-90deg);
         transform-origin:  left top;
         position: relative;
-        top: 140mm;        
+        top: 182mm        
     }
 
     /* @bottom-left {
@@ -111,12 +111,12 @@ span {
     @right-top {
         content: string(page-title);
         
-        width: 100mm;
+        width: 182mm;
         height: 14mm;
         transform: rotate(90deg);
         transform-origin: left bottom;
         position: relative;
-        top: 26mm;    
+        bottom: 14mm;   
     }
     
     /* @bottom-right {

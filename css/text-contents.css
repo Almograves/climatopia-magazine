@@ -11,7 +11,7 @@ h1 {
 h2 {
     position: relative;
     font-size: 30pt;
-    margin: 0mm 5mm 3mm;
+    margin: 0mm 5mm 1mm;
     font-family: Messapia;
     font-weight: normal;
     text-transform: uppercase;
@@ -45,13 +45,16 @@ ul {
 /* CLASSES */
 
 .chapter-opening-block-holder {
-    width: 120mm;
+    margin-left: 5mm;
+    padding-right: 5mm;
+    width: 115mm;
     display: flex;
     align-items: center;
     justify-content: center;
     /* background-color: #EEE; */
 
-    border-radius: 1mm;
+    /* border-radius: 20mm 0mm; */
+    
 }
 
 .chapter-opening-block {
