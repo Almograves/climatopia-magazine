@@ -10,7 +10,7 @@ var(--pagedjs-pagebox-height) for the height of your page
 }
 
 /* p {
-    font-family: 'Sigoli-Micro', sans-serif;
+    font-family: 'Sligoli-Micro', sans-serif;
 }
 
 span {
@@ -168,7 +168,7 @@ span {
 .pagedjs_margin-bottom-right-corner * {
     font-family: 'VG5000', sans-serif !important;
     font-size: 14pt !important;
-    /* font-family: 'Sigoli-Micro', sans-serif !important;
+    /* font-family: 'Sligoli-Micro', sans-serif !important;
     font-family: 'AUTHENTICSans', sans-serif !important;
     font-weight: 90 !important;
     font-size: 14pt !important;

@@ -59,14 +59,14 @@ ul {
 }
 
 .chapter-opening-text {
-    font-family: 'Sigoli-Micro', serif;
+    font-family: 'Sligoli-Micro', serif;
     font-family: "AUTHENTICSans", sans-serif;
     font-family: "Messapia", serif;
     font-size: 14pt;
 }
 
 .chapter-text-holder {
-    font-family: 'Sigoli-Micro', serif;
+    font-family: 'Sligoli-Micro', serif;
     font-size: 10pt;
     letter-spacing: -0.3mm;
     width: 80mm;
@@ -84,6 +84,6 @@ ul {
 
 .li-title {
     /* font-family: "Messapia", serif;
-    font-family: 'Sigoli-Micro', serif; */
+    font-family: 'Sligoli-Micro', serif; */
     font-weight: 130;
 }
