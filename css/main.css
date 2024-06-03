@@ -170,7 +170,7 @@ span {
 .pagedjs_margin-bottom-left-corner *,
 .pagedjs_margin-bottom-right-corner * {
     font-family: 'VG5000', sans-serif !important;
-    font-size: 14pt !important;
+    font-size: 12pt !important;
     /* font-family: 'Sligoli-Micro', sans-serif !important;
     font-family: 'AUTHENTICSans', sans-serif !important;
     font-weight: 90 !important;
@@ -184,7 +184,7 @@ span {
     font-family: 'Messapia', 'Times New Roman', Times, serif;
     font-weight: normal;
     /* text-transform: uppercase; */
-    font-size: 10pt;
+    font-size: 8pt;
 }
 
 /* .pagedjs_area {

@@ -17,3 +17,27 @@
         content: none   ;
     }
 }
+
+@page:nth(16) {
+    margin: 7mm;
+
+    @top-center {
+        content: none;
+    }
+
+    @top-left-corner {
+        content: none;
+    }
+
+    @left-top {
+        content: none;
+    }
+
+    @bottom-center {
+        content: none;
+    }
+
+    @bottom-left-corner {
+        content: none   ;
+    }
+}
