@@ -36,9 +36,9 @@
     --sectionColor2: linear-gradient(0deg, rgba(237,236,255,1) 0%, rgba(143,209,255,1) 40%, rgb(75, 172, 224) 100%);
 }
 
-#atlantis-chapterOpener-text {
+/* #atlantis-chapterOpener-text {
     position: absolute;
-}
+} */
 
 /* #atlantis-chapter-opening-block-holder {
     box-shadow: rgba(112, 165, 226, 0.743) 25mm 0mm 20mm -20mm inset;
