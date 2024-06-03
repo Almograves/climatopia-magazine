@@ -2,10 +2,10 @@
 
 Climatopia is a speculative design magazine that explores the potential impacts of climate change on human cultures across different habitat scenarios. As our living environments continue to change, we aim to collect and present ideas on how we might adapt to various degrees of speculated environmental change.
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="svgs/cactus.svg" alt="Cactus" style="width: 30%;">
-    <img src="svgs/atlantis.svg" alt="Atlantis" style="width: 30%;">
-    <img src="svgs/phoenix.svg" alt="Phoenix" style="width: 30%;">
+<div style="width: 100%; display: flex; justify-content: space-evenly;">
+    <img src="svgs/cactus.svg" alt="Cactus" style="width: 20%;">
+    <img src="svgs/atlantis.svg" alt="Atlantis" style="width: 20%;">
+    <img src="svgs/phoenix.svg" alt="Phoenix" style="width: 20%;">
 </div>
 
 
@@ -18,9 +18,9 @@ As a result of climate change, the living environments of humans across the glob
 
 This magazine covers a wide range of topics, including but not limited to:
 
-Atlantis - rising sea levels
-Cactus - growing water scarcity
-Phoenix - increasing temperatures
+- Atlantis - rising sea levels
+- Cactus - growing water scarcity
+- Phoenix - increasing temperatures
 
 ## Project Lead
 
