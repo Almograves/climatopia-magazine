@@ -72,7 +72,7 @@ ul {
 .chapter-text-holder {
     font-family: 'Sligoli-Micro', serif;
     font-size: 10pt;
-    letter-spacing: -0.3mm;
+    letter-spacing: -0.1mm;
     width: 120mm;
 
     display: grid;

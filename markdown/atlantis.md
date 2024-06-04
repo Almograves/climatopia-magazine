@@ -19,3 +19,8 @@ This is causing islands across the world to disappear underwater and thousands o
 
 SROCC. 2019 IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (eds H-O Pörtner et al.). In press.
 
+
+
+## Defensive architecture
+
+Defensive architecture such as dams and other water-blocking technologies have been employed to protect land from the sea for centuries. Some coastal cities and otherwise flood-surge endangered cities employ  such as in the case of the Thames Barrier protecting London
