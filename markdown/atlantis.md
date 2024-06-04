@@ -1,26 +1,30 @@
 # Atlantis
 
-## Opener:
+## Intro:
 
-When coastal cities, islands and entire nations slowly go under in the rising sea, how will human life there continue?
+When coastal cities, islands and entire nations slowly go under in the rising sea, how will human life there change and continue?
 
-## Sci Back:
+Global warming is causing sea levels to rise due to three primary factors:
 
-Sea-levels are rising as a result of three factors all caused by global warming:
-- thermal expansion: seawater expands due to increasing temperatures
-- melting glaciers: summer runoff isn't balanced by winter snowfall anymore
-- melting ice shields: the ice shields in Greenland and Antarctica are melting
+(SROCC. 2019 IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (eds H-O Pörtner et al.). In press.)
 
-This trend is increasing, with the yearly rise in sea-level accelerating.
+- Thermal expansion: As the temperature of seawater increases, it expands.
+- Melting glaciers: The balance between summer runoff and winter snowfall is being disrupted, as glaciers melt at a faster rate than they are replenished.
+- Melting ice shields: The vast ice shields in Greenland and Antarctica are melting, adding large volumes of water to the ocean.
 
-This is causing islands across the world to disappear underwater and thousands of coastal cities are threatened of sharing the same fate. 
+This trend of rising sea levels is not only increasing yearly but accelerating.
 
-(https://science.nasa.gov/earth/climate-change/new-study-finds-sea-level-rise-accelerating/)
-
-SROCC. 2019 IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (eds H-O Pörtner et al.). In press.
-
+The consequences of this trend are severe and far-reaching. Islands across the globe are gradually disappearing underwater. Additionally, thousands of coastal cities face the imminent threat of being submerged. This situation calls for urgent action and adaptation strategies.
 
 
 ## Defensive architecture
 
-Defensive architecture such as dams and other water-blocking technologies have been employed to protect land from the sea for centuries. Some coastal cities and otherwise flood-surge endangered cities employ  such as in the case of the Thames Barrier protecting London
+For centuries, defensive architecture like dams and other water-blocking technologies have been utilized to safeguard land from the encroaching sea.
+
+Certain coastal cities and other cities at risk of flood surges have implemented defenses that are temporarily activated in the case of extreme conditions, such as the Thames Barrier in London or the MOSE in Venice. However, these systems are not equipped to handle the challenges posed by long-term sea level rise, as are not intended to stay closed for extended periods of time.
+
+In some parts of the world, permanent defenses against rising sea levels have been implemented. For instance, the Netherlands, a country much of which lies below sea level, has developed a comprehensive system of dikes, dams, and storm surge barriers, known as the Delta Works, to protect their land. This system includes the Maeslantkering, a massive movable storm surge barrier designed to withstand a storm that would occur once every 10,000 years.
+
+
+ Despite these impressive defenses, the Netherlands continues to innovate and adapt, exploring new strategies such as 'living with water', which includes the construction of floating houses and infrastructure that can adapt to changing water levels.
+
