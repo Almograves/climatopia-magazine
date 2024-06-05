@@ -6,6 +6,14 @@
 
 - 2.1 intro: https://www.ipcc.ch/srocc/
 
+- 2.2 defenisve:
+
+    - suggests moving inland: https://www.int-res.com/articles/cr1999/12/c012p137.pdf
+    - different island protection methods + 60m SLR: https://www.sciencedirect.com/science/article/pii/S1877343521000713
+    - environmental impact: https://tamug-ir.tdl.org/server/api/core/bitstreams/4dda673b-9b16-4fb2-b288-fb08d43651f3/content
+    
+    
+
 ## Section 3: Cactus
 
 - 3.1 intro: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-4/

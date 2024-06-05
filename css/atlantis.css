@@ -43,3 +43,13 @@
 /* #atlantis-chapter-opening-block-holder {
     box-shadow: rgba(112, 165, 226, 0.743) 25mm 0mm 20mm -20mm inset;
 } */
+
+#atlantis-defense-h3Hold1 {
+    flow-into: atlantis-defense-h3;
+}
+
+#atlantis-defense-h3Pos1 {
+    grid-column: 1 / 4;
+
+    flow-from: atlantis-defense-h3;
+}

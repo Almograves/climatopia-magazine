@@ -99,3 +99,14 @@ ul {
     font-family: 'Sligoli-Micro', serif; */
     font-weight: 130;
 }
+
+.grid-4 {
+    font-family: 'Sligoli-Micro', serif;
+    font-size: 10pt;
+    letter-spacing: -0.1mm;
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4mm;
+}
