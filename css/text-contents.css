@@ -23,6 +23,8 @@ h2::before {
 }
 
 h3 {
+    margin: 0mm 0mm 3mm;
+
     string-set: page-title content(text);
 }
 
@@ -62,8 +64,8 @@ ul {
 }
 
 .chapter-opening-text {
-    font-family: 'Sligoli-Micro', serif;
-    font-family: "AUTHENTICSans", sans-serif;
+    /* font-family: 'Sligoli-Micro', serif;
+    font-family: "AUTHENTICSans", sans-serif; */
     font-family: "Messapia", serif;
     font-size: 14pt;
     font-weight: bold;
@@ -109,4 +111,12 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 4mm;
+
+    position: relative;
+}
+
+.g4-h3-holder {
+    font-family: "Messapia", serif;
+    font-size: 14pt;
+    font-weight: bold;
 }
