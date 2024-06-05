@@ -24,6 +24,7 @@ h2::before {
 
 h3 {
     margin: 0mm 0mm 3mm;
+    position: relative;
 
     string-set: page-title content(text);
 }
@@ -119,4 +120,16 @@ ul {
     font-family: "Messapia", serif;
     font-size: 14pt;
     font-weight: bold;
+}
+
+.h3-background {
+    height: 20mm;
+    width: 20mm;
+    margin: 2mm 3mm;
+
+    border-radius: 10mm;
+
+    background: var(--sectionColor2);
+
+    position: absolute;
 }

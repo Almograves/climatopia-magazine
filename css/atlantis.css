@@ -53,14 +53,13 @@
     grid-column: 2 / 5;
     position: absolute;
     margin: 0mm 5mm 0mm 15mm;
-    top: 19mm;
+    top: 45mm;
     font-family: 'AUTHENTICSans', sans-serif;
 }
 
 #atlantis-defense-pHold2 {
     grid-column: 1 / 4;
-    margin-right: 24mm;
-    margin-top: 45mm;
+    margin: 40mm 24mm 0mm 0mm;
 }
 
 #atlantis-defense-pHold3 {
@@ -69,8 +68,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 4mm;
+    margin-bottom: 5mm;
 }
 
 #atlantis-defense-pHold3 p {
     margin-top: 0;
+}
+
+#atlantis-defense-pHold4 {
+    grid-column: 1 / 5;
+}
+
+#atlantis-defense-pHold4 p {
+    margin-top: 0;
+    display: inline-block;
 }

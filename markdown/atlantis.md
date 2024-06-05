@@ -41,3 +41,6 @@ For dealing with future increased SLR all those concepts fall short of long-term
 )
 
 While these concepts offer some protection against SLR, they lack long-term stability and effectiveness, as sea levels might rise tremendously over the coming centuries. The prevailing long-term recommendation is to relocate further inland. However, this is not a viable solution for islands and other regions that are barely above sea level. These areas will eventually be completely submerged, leading to the loss of their existing ecosystems and current human living environments.
+
+## Floating cities
+
