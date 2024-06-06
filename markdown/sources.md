@@ -12,7 +12,11 @@
     - different island protection methods + 60m SLR: https://www.sciencedirect.com/science/article/pii/S1877343521000713
     - environmental impact: https://tamug-ir.tdl.org/server/api/core/bitstreams/4dda673b-9b16-4fb2-b288-fb08d43651f3/content
     
-    
+- 2.3 floating:
+
+    - busan eceanix carbon neutral: https://www.sciencedirect.com/science/article/pii/S2352484722022466
+    - algorythms for floating city building: https://www.sciencedirect.com/science/article/abs/pii/S0957417423019784
+    -     
 
 ## Section 3: Cactus
 

@@ -77,9 +77,44 @@
 
 #atlantis-defense-pHold4 {
     grid-column: 1 / 5;
+    margin-right: 23mm;
 }
 
 #atlantis-defense-pHold4 p {
     margin-top: 0;
     display: inline-block;
+}
+
+#atlantis-float-h3Hold1 {
+    grid-column: 1 / 4;
+}
+
+#atlantis-float-pHold1 {
+    grid-column: 1 / 4;
+}
+
+
+#atlantis-float-pHold2 li {
+    margin-top: 1mm;
+}
+
+#atlantis-fload-iHold1 {
+    grid-column: 2 / 5;
+    margin-top: 30mm;
+}
+
+#atlantis-float-i1 {
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(11, 8mm);
+    grid-template-rows: repeat(11, 8mm);
+}
+
+#atlantis-float-idHold1 {
+    grid-column: 3 / 5;
+}
+
+#atlantis-float-pHold2 {
+    grid-column: 2 / 5;
+    margin-left: 15mm;
 }

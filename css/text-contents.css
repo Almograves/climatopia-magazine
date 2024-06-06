@@ -133,3 +133,21 @@ ul {
 
     position: absolute;
 }
+
+.g4-image-holder {
+    display: flex;
+}
+
+.g4-image-description {
+    margin: 3mm 1mm 0mm 15mm;
+    border-right: dashed var(--sectionColor1) 0.7mm;
+    padding-right: 1mm;
+
+    font-family: "VG5000", sans-serif;
+    font-size: 7pt;
+    line-height: 3mm;
+    letter-spacing: normal;
+
+    text-align: end;
+    display: block;
+}
