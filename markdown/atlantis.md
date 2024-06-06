@@ -48,3 +48,7 @@ Several floating city projects are already underway, including:
 - In the Netherlands, "Waterbuurt" is a floating neighborhood of nearly 100 connected floating houses, completed in 2010. This project demonstrates the viability of constructing floating urban areas. The residents describe a strong sense of community in their neighborhood and a connection with the water.
 - In Korea, "Busan Oceanix City" is a proposed sustainable floating urban area with large buildings, a zero-waste system, and its own energy production through solar and wave power. By additionally employing sea-reforestation systems, this project has the potential to become entirely carbon neutral [citation].
 - The "Maldives Floating City" project, if completed, would be the world's first floating island city. It aims to provide an alternative to living on sinking islands. By integrating sustainable construction practices, environmental care for the marine environment, local culture and community building, and resilience through dynamic adaptation and development, it has the potential to set a benchmark for future developments around the globe.
+
+## Speculations - marine lifestyles
+
+Island nations like the maledives wanting to embrace a floating lifestyle, permanently connected to the sea, as opposed to the crammed high-rise buildings 
