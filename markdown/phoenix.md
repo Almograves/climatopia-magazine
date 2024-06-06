@@ -18,3 +18,6 @@ The consequences of this trend are severe and far-reaching. All regions across t
 
 
 ## :
+
+## Speculations - floral solutions:
+

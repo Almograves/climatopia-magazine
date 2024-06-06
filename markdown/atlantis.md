@@ -51,4 +51,12 @@ Several floating city projects are already underway, including:
 
 ## Speculations - marine lifestyles
 
-Island nations like the maledives wanting to embrace a floating lifestyle, permanently connected to the sea, as opposed to the crammed high-rise buildings 
+Island nations like the maledives wanting to embrace a floating lifestyle, permanently connected to the sea - as opposed to the high-rise buildings crammed on some of the larger islands - marks a return to a deeply nature-connected culture. While the traditional living environments are changing drastically and some of the cultural heritage of many regions of the world will inevitably be lost due to sea level rise (slr), living with water might mean forming new, deep connections to the maritime environment. Furthermore, living in connected networks of small floating buildings can create stronger communities, effectively more similar to villages than to cities.
+
+### New sea organisms
+Floating cities have a high potential of functioning similarly to organisms due the following factors:
+- Modular structure: Damaged modules can easily be repaired or replaced. Moules can be moved and re-connected, creating a dynamic, organically changing city structure.
+- Metabolism: Floating cities need to be planned with resource and waste management first in mind. By using solar and wave energy and including submarine gardens the cities can become useful species in the marine ecosystem.
+- Reproduction: This aspect is more speculative, but floating cities might as they grow dynamically split parts off, creating new cities, similarly to cell-level organisms. 
+
+### coral cities
