@@ -1,20 +1,20 @@
-<style>
-    article {
-        flow-into: article;
-    }
-    #multi-col {
-        column-count: 2;
-        flow-from: article;
-        height: 6em;
-        column-gap: 1em; 
-    }
-    #remainder {
-        flow-from: article;
-        height: auto;
-    }
-  </style>
-  <body>
-    <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, numquam enim. Nihil in cupiditate et? Totam sed perspiciatis iste obcaecati velit, accusamus aspernatur eum? Minima distinctio in necessitatibus maiores nemo.</article>
-    <div id="multi-col"></div>
-    <div id="remainder"></div>
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/coralGenerator.js"></script>
+    <style>
+        #atlantis-coral-iHold1 {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="g4-image-holder" id="atlantis-coral-iHold1">
+        <script>  
+            drawArm(50, 50, 100, 30, 20);
+            document.getElementById('atlantis-coral-iHold1').appendChild(coralCanvas);
+        </script>
+    </div>
+</body>
+</html>

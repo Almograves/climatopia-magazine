@@ -1,3 +1,14 @@
+.front-cover {
+    position: relative;
+}
+
+.cover-block{
+    height: 120mm;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
 @page:first {
     margin: 7mm;
 
@@ -18,7 +29,27 @@
     }
 }
 
-@page:nth(16) {
+h1 {
+    string-set: full-title attr(data-book-title);
+    string-set: short-title content(text);
+    font-family: Messapia;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 48pt;
+    text-align: center;
+    margin: 0;
+}
+
+#front-cover-block {
+    margin-top: -10mm;
+    background: linear-gradient(0deg, #FFFFFF 0%, #FF00FF 100%);
+}
+
+.back-cover {
+    position: relative;
+}
+
+@page:nth(20) {
     margin: 7mm;
 
     @top-center {
@@ -40,4 +71,9 @@
     @bottom-left-corner {
         content: none   ;
     }
+}
+
+#back-cover-block {
+    background: linear-gradient(0deg, #FFFFFF 0%, #66FF99 100%);
+    margin-top: -6mm;
 }

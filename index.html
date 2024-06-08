@@ -4,7 +4,7 @@
 <head>
     <script src="js/chapterColors.js" defer></script>
     <script src="js/paged.polyfill.js" defer></script>
-
+    <!-- <script src="js/coralGenerator.js" defer></script> -->
     <!-- <script src="js/generateFloatingIslandGraphic.js"></script> -->
 
     <link rel="stylesheet" href="css/interface.css" type="text/css">
@@ -31,7 +31,11 @@
     <section class="front-cover">
         <div class="page">
             <h1 data-book-title="Climatopia: Cultures of Tomorrow">Climatopia</h1>
-
+            <div id="front-cover-block" class="cover-block"></div>
+            <div id="front-cover-bottom">
+                <div>A5 size version</div>
+                <div>2024/06/09 edition</div>
+            </div>
         </div>
     </section>
 
@@ -43,7 +47,30 @@
             <p>cover inside placeholder</p>
         </div>
         <div class="page" id="climatopia"> <!--page 1-->
+            <h3 class="hidden">The 3 Climatopian Core Principles</h3>
+            <div class="h2-background"></div>
             <h2>Climatopia</h2>
+            <p>
+                Climatopia is an ongoing magazine project collecting knowledge and ideas for how adapting to climate
+                change can bring new value to human life. The climatopian future follows 3 core principles:
+            </p>
+            <ol id="core-principles-ol">
+                <li>
+                    At no point should we stop trying to limit climate change, just because we can imagine dealing well
+                    with its effects. Climate change is a near-apocalyptic unpredictable and destructive force that must
+                    be stopped.
+                </li>
+                <li>
+                    The climatopian future can only strive through the integration of many different sustainable and
+                    healing-oriented values. Climatopian ideas and technologies need to be intersectional, equal and
+                    available to all.
+                </li>
+                <li>
+                    Knowledge is fluid and expandable. Just as the scientific and philosophical consensus evolves over
+                    time, climatopian ideas, technologies, writings and even core principles have to evolve to adapt to
+                    changing environments. All climatopian work has to stay open to this process.
+                </li>
+            </ol>
         </div>
     </section>
 
@@ -167,11 +194,18 @@
                     </p>
                 </div>
                 <div id="atlantis-defense-bg1">
-                    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                        <polygon points="0,95 25,95 50,90 75,87 100,80 100,85, 75,95 50,98, 25,105 0,110" fill="#B3E6FF"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <polygon points="0,95 25,95 50,90 75,87 100,80 100,85, 75,95 50,98, 25,105 0,110"
+                            fill="#B3E6FF" />
                     </svg>
                 </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="grid-4">
                 <div class="g4-p-holder" id="atlantis-defense-pHold4">
+                    <h3 class="hidden">Defensive Architecture - Islands and Conclusion</h3>
+                    <h4>Islands</h4>
                     <p>
                         Many islands are low-lying and vulnerable to even minor increases in sea level. Traditional
                         defensive architecture and beach nourishment (stocking up beaches with sand) are possible to
@@ -180,9 +214,13 @@
                         reduce wave energy and erosion for temporary relief and protection of current ecosystems and
                         human communities.
                     </p>
+                    <h4>Conclusion</h4>
                     <p>
                         While these concepts offer some protection against SLR, they lack long-term stability and
-                        effectiveness, as sea levels might rise tremendously over the coming centuries<span class="footnote" data-section="atlantis"> 2021. Loss and damage implications of sea-level rise on Small Island Developing States. Current Opinion in Environmental Sustainability, volume 50 (Martyr-Koller, R. et al.). ISSN 1877-3435
+                        effectiveness, as sea levels might rise tremendously over the coming centuries<span
+                            class="footnote" data-section="atlantis"> 2021. Loss and damage implications of sea-level
+                            rise on Small Island Developing States. Current Opinion in Environmental Sustainability,
+                            volume 50 (Martyr-Koller, R. et al.). ISSN 1877-3435
                         </span>. The prevailing
                         long-term recommendation is to relocate further inland. However, this is not a viable solution
                         for islands and other regions that are barely above sea level. These areas will eventually be
@@ -191,8 +229,9 @@
                     </p>
                 </div>
                 <div id="atlantis-defense-bg2">
-                    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                        <polygon points="0,80 25,65 50,15 75,-5 100,-10 100,65, 75,65 50,70, 25,80 0,85" fill="#B3E6FF"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <polygon points="0,80 25,65 50,15 75,-5 100,-10 100,65, 75,65 50,70, 25,80 0,85"
+                            fill="#B3E6FF" />
                     </svg>
                 </div>
             </div>
@@ -208,10 +247,13 @@
                 </div>
                 <div class="g4-p-holder" id="atlantis-float-pHold1">
                     <p>
-                        The concept of building floating urban structures on water is not new. In fact, houseboats have been in use for a very long time in many countries around the world. In the face of sea level rise (SLR), floating cities offer a clear advantage: they rise with the sea instead of being inundated.
+                        The concept of building floating urban structures on water is not new. In fact, houseboats have
+                        been in use for a very long time in many countries around the world. In the face of sea level
+                        rise (SLR), floating cities offer a clear advantage: they rise with the sea instead of being
+                        inundated.
                     </p>
                 </div>
-                <div class="g4-image-holder" id="atlantis-fload-iHold1">
+                <div class="g4-image-holder" id="atlantis-float-iHold1">
                     <div class="pixel-grid" id="atlantis-float-i1">
                         <script>
                             var pixelGrid = document.getElementById('atlantis-float-i1');
@@ -232,6 +274,20 @@
                         algorithmically generated abstract representation of a floating city from above
                     </span>
                 </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="grid-4">
+                <h3 class="hidden">Floating Cities - Current Projects</h3>
+                <div class="g4-image-holder" id="atlantis-float-iHold2">
+                    <img src="images/floating_house_drawing.png" alt="drawing of a floating house above the seafloor"
+                        id="atlantis-float-i2">
+                </div>
+                <div class="g4-image-description-holder" id="atlantis-float-idHold2">
+                    <span class="g4-image-description">
+                        drawing of floating houses above the sea &#169;notmoderator, 2024
+                    </span>
+                </div>
                 <div class="g4-p-holder" id="atlantis-float-pHold2">
                     <h4>Current Floating Cities</h4>
                     <p>
@@ -239,14 +295,27 @@
                     </p>
                     <ul>
                         <li>
-                            <span class="li-title">In the Netherlands, "Waterbuurt"</span> is a floating neighborhood of nearly 100 connected floating houses, completed in 2010. This project demonstrates the viability of constructing floating urban areas. The residents describe a strong sense of community in their neighborhood and a connection with the water.
+                            <span class="li-title">In the Netherlands, "Waterbuurt"</span> is a floating neighborhood of
+                            nearly 100 connected floating houses, completed in 2010. This project demonstrates the
+                            viability of constructing floating urban areas. The residents describe a strong sense of
+                            community in their neighborhood and a connection with the water.
                         </li>
                         <li>
-                            <span class="li-title">In Korea, "Busan Oceanix City"</span> is a proposed sustainable floating urban area with large buildings, a zero-waste system, and its own energy production through solar and wave power. By additionally employing sea-reforestation systems, this project has the potential to become entirely carbon neutral<span class="footnote" data-section="atlantis">2022. Analysis of floating city design solutions in the context of carbon neutrality.Energy Reports, Volume 8 (Huimin Yang et al.). ISSN 2352-4847
+                            <span class="li-title">In Korea, "Busan Oceanix City"</span> is a proposed sustainable
+                            floating urban area with large buildings, a zero-waste system, and its own energy production
+                            through solar and wave power. By additionally employing sea-reforestation systems, this
+                            project has the potential to become entirely carbon neutral<span class="footnote"
+                                data-section="atlantis">2022. Analysis of floating city design solutions in the context
+                                of carbon neutrality.Energy Reports, Volume 8 (Huimin Yang et al.). ISSN 2352-4847
                             </span>.
                         </li>
                         <li>
-                            <span class="li-title">The "Maldives Floating City"</span> project, if completed, would be the world's first floating island city. It aims to provide an alternative to living on sinking islands. By integrating sustainable construction practices, environmental care for the marine environment, local culture and community building, and resilience through dynamic adaptation and development, it has the potential to set a benchmark for future developments around the globe.
+                            <span class="li-title">The "Maldives Floating City"</span> project, if completed, would be
+                            the world's first floating island city. It aims to provide an alternative to living on
+                            sinking islands. By integrating sustainable construction practices, environmental care for
+                            the marine environment, local culture and community building, and resilience through dynamic
+                            adaptation and development, it has the potential to set a benchmark for future developments
+                            around the globe.
                         </li>
                     </ul>
                 </div>
@@ -255,25 +324,40 @@
 
         <div class="page">
             <div class="grid-4">
+                <h3 class="hidden">Floating Cities - New Sea Organisms</h3>
                 <div class="g4-p-holder" id="atlantis-float-pHold3">
                     <p>
-                        Island nations like the maledives wanting to embrace a floating lifestyle, permanently connected to the sea - as opposed to the high-rise buildings crammed on some of the larger islands - marks a return to a deeply nature-connected culture. While traditional living environments are changing drastically and some of the cultural heritage of many regions of the world will inevitably be lost to the rising sea, living with water might mean forming new, deep connections with the maritime environment. Moreover, living in interconnected networks of small floating buildings could foster stronger communities, resembling villages more than cities.
+                        Island nations like the maledives wanting to embrace a floating lifestyle, permanently connected
+                        to the sea - as opposed to the high-rise buildings crammed on some of the larger islands - marks
+                        a return to a deeply nature-connected culture. While traditional living environments are
+                        changing drastically and some of the cultural heritage of many regions of the world will
+                        inevitably be lost to the rising sea, living with water might mean forming new, deep connections
+                        with the maritime environment. Moreover, living in interconnected networks of small floating
+                        buildings could foster stronger communities, resembling villages more than cities.
                     </p>
                 </div>
                 <div class="g4-p-holder" id="atlantis-float-pHold4">
                     <h4>New Sea Organisms</h4>
                     <p>
-                        Floating cities have a high potential to function similarly to organisms due the following factors:
+                        Floating cities have a high potential to function similarly to organisms due the following
+                        factors:
                     </p>
                     <ul>
-                        <li> 
-                            <span class="li-title">Modular structure:</span><br> Damaged modules can easily be repaired or replaced. Moules can be moved and reconnected, creating a dynamic, organically changing city structure.
+                        <li>
+                            <span class="li-title">Modular structure:</span><br> Damaged modules can easily be repaired
+                            or replaced. Moules can be moved and reconnected, creating a dynamic, organically changing
+                            city structure.
                         </li>
                         <li>
-                            <span class="li-title">Metabolism:</span><br> Floating cities need to be designed with resource and waste management as a priority. By using solar and wave energy and incorporating submarine gardens, these cities can become useful species in the marine ecosystem.
+                            <span class="li-title">Metabolism:</span><br> Floating cities need to be designed with
+                            resource and waste management as a priority. By using solar and wave energy and
+                            incorporating submarine gardens, these cities can become useful species in the marine
+                            ecosystem.
                         </li>
                         <li>
-                            <span class="li-title">Reproduction:</span><br> This aspect is more speculative, but as floating cities grow, they might dynamically split off parts, creating new cities, similar to cellular organisms.
+                            <span class="li-title">Reproduction:</span><br> This aspect is more speculative, but as
+                            floating cities grow, they might dynamically split off parts, creating new cities, similar
+                            to cellular organisms.
                         </li>
                     </ul>
                 </div>
@@ -288,18 +372,37 @@
                 </div>
                 <div class="g4-p-holder" id="atlantis-coral-pHold1">
                     <p>
-                        One of the significant challenges for life on Earth under climate change is the slow speed of evolutionary processes. A majority of species will not survive as they can't adapt quickly enough to their changing environments.
+                        One of the significant challenges for life on Earth under climate change is the slow speed of
+                        evolutionary processes. A majority of species will not survive as they can't adapt quickly
+                        enough to their changing environments.
                     </p>
                 </div>
                 <div class="g4-p-holder" id="atlantis-coral-pHold2">
                     <p>
-                        As sea levels rise, not only are islands that host many unique species threatened, but submarine lifeforms are also at risk. Global warming is causing ocean temperatures to rise, creating conditions that many species cannot tolerate. Additionally, the increasing distance between the ocean floor and surface due to rising sea levels reduces the amount of light available in many areas.
+                        As sea levels rise, not only are islands that host many unique species threatened, but submarine
+                        lifeforms are also at risk. Global warming is causing ocean temperatures to rise, creating
+                        conditions that many species cannot tolerate. Additionally, the increasing distance between the
+                        ocean floor and surface due to rising sea levels reduces the amount of light available in many
+                        areas.
                     </p>
                 </div>
                 <div class="g4-p-holder" id="atlantis-coral-pHold3">
                     <p>
-                        What if we could evolve fast enough to adapt to these changes? If islands become submerged, could human civilizations continue to inhabit the same islands, but below sea level instead of above? Corals would provide a multifunctional, renewable, and climate-positive building material for submarine infrastructure. Humanity could form much stronger bonds with their marine environment than ever before, by learning to coexist, cooperate, and communicate with many other lifeforms.
+                        What if we could evolve fast enough to adapt to these changes? If islands become submerged,
+                        could human civilizations continue to inhabit the same islands, but below sea level instead of
+                        above? Corals would provide a multifunctional, renewable, and climate-positive building material
+                        for submarine infrastructure. Humanity could form much stronger bonds with their marine
+                        environment than ever before, by learning to coexist, cooperate, and communicate with many other
+                        lifeforms.
                     </p>
+                </div>
+                <div class="g4-image-holder" id="atlantis-coral-iHold1">
+                    <img id="atlantis-coral-i1" src="svgs/coral.svg" alt="coral">
+                </div>
+                <div class="g4-image-description-holder" id="atlantis-coral-idHold1">
+                    <span class="g4-image-description">
+                        algorithmically generated abstract representation of a coral house
+                    </span>
                 </div>
             </div>
         </div>
@@ -421,10 +524,9 @@
                                     <rect x="20" y="-1" width="60" height="61" fill="black" />
                                 </mask>
                             </defs>
-                            <polygon points="0,0 100,0 50,100" fill="#8A0F3D" mask="url(#phoenixCutout)" />
-                            <polygon points="10,70 90,70 50,0" fill="#8A0F3D" />
+                            <polygon points="0,0 100,0 50,100" fill="#7D0024" mask="url(#phoenixCutout)" />
+                            <polygon points="10,70 90,70 50,0" fill="#7D0024" />
                             <circle cx="50" cy="47" r="20" fill="#FFFFFF" />
-
                         </svg>
                     </div>
                 </div>
@@ -509,7 +611,17 @@
     </section>
 
     <section class="back-cover">
-        <div>this is the back-cover</div>
+        <div class="page">            
+            <div class="chapter-opening-block-holder" id="back-cover-block-holder">
+                <div class="chapter-opening-block">
+                    <p class="chapter-opening-text">
+                        What if the current and future climate realities force humanity to change and adapt? What will
+                        the cultures of tomorrow be?
+                    </p>
+                </div>
+            </div>
+            <div id="back-cover-block" class="cover-block"></div>
+        </div>
     </section>
 </body>
 

@@ -25,3 +25,31 @@
 #cover-inside {
     counter-reset: page-counter;
 }
+
+#climatopia {
+    --sectionColor1: #FF00FF;
+    --sectionColor2: linear-gradient(0deg, #FFFFFF 0%, #FF00FF 100%);
+    --sectionColor3: #66FF99;
+}
+
+#climatopia p {
+    font-family: 'Sligoli-Micro', sans-serif;
+    letter-spacing: -0.2mm;
+    font-size: 12pt;
+    margin: 3mm 10mm 3mm 5mm;
+    border-left: dashed 2mm black;
+    padding-left: 5mm;
+    /* background-color: var(--sectionColor3); */
+}
+
+#core-principles-ol {
+    font-size: 12pt;
+    font-weight: 130;
+    padding-left: 5mm;
+    margin-right: 12mm;
+}
+
+#core-principles-ol li {
+    margin-top: 3mm;
+    text-decoration: underline var(--sectionColor3) 0.5mm dashed;
+}

@@ -128,7 +128,7 @@
     margin-top: 1mm;
 }
 
-#atlantis-fload-iHold1 {
+#atlantis-float-iHold1 {
     grid-column: 2 / 5;
     margin-top: 30mm;
 }
@@ -169,6 +169,8 @@
     height: 100%;
     border-radius: 3mm;
     background: linear-gradient(0deg, #E69900 0%, rgb(255, 184, 164) 100%);
+    background: none;
+    background-color: #FF8000;
 }
 
 #atlantis-float-idHold1 {
@@ -177,7 +179,31 @@
 
 #atlantis-float-pHold2 {
     grid-column: 2 / 5;
-    margin-left: 15mm;
+    grid-row: 1 / 3;
+    margin-left: 13mm;
+}
+
+#atlantis-float-pHold2 ul {
+    padding-left: 11mm;
+}
+
+
+#atlantis-float-iHold2 {
+    grid-column: 1 / 2;
+}
+
+#atlantis-float-i2 {
+    width: 100%;
+    height: 90mm;
+    margin-top: 27mm;
+}
+
+#atlantis-float-idHold2 {
+    grid-column: 1 / 2;
+}
+
+#atlantis-float-idHold2 span {
+    margin: -18mm 0mm 0mm;
 }
 
 #atlantis-float-pHold3 {
@@ -205,10 +231,38 @@
 
 #atlantis-coral-pHold2 {
     grid-column: 1 / 5;
-    margin-right: 28mm;
+}
+
+#atlantis-coral-pHold2 p {
+    margin: 0mm 28mm 0mm 0mm;
 }
 
 #atlantis-coral-pHold3 {
-    grid-column: 2 / 5;
-    margin-left: 30mm;
+    grid-column: 3 / 5;
+    /* margin-left: 30mm; */
+}
+
+#atlantis-coral-iHold1 {
+    position: absolute;
+    top: 109mm;
+    left: 0mm;
+    height: 58mm;
+    width: 58mm;
+    background: linear-gradient(180deg, #0091FF 0%, rgba(58,57,166,1) 100%);
+}
+
+#atlantis-coral-i1 {
+    width: 100%;
+    height: 100%;
+}
+
+#atlantis-coral-idHold1 {
+    position: absolute;
+    top: 171mm;
+    left: 0mm;
+    width: 58mm;
+}
+
+#atlantis-coral-idHold1 span {
+    margin: 0mm 0mm 0mm 5mm;
 }
