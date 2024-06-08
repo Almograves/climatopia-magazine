@@ -19,8 +19,8 @@
 .phoenixVisual-sand {
     grid-row: 2 / 4;
 
-    background: rgb(106,28,13);
-    background: linear-gradient(0deg, rgb(64, 0, 43) 0%, rgb(173, 39, 39) 35%, rgb(255, 184, 164) 100%);
+    background: #B80000;
+    background: linear-gradient(0deg, #400026 0%, #B80000 35%, rgb(255, 184, 164) 100%);
     
     display: flex;
     align-items: center;
@@ -32,6 +32,6 @@
 }
 
 #phoenix {
-    --sectionColor1: #7a0029;
+    --sectionColor1: #8A0F3D;
     --sectionColor2: linear-gradient(0deg, rgb(245, 250, 240) 10%, rgb(134, 217, 221) 100%);
 }

@@ -44,19 +44,24 @@ While these concepts offer some protection against SLR, they lack long-term stab
 
 The concept of building floating urban structures on water is not new. In fact, houseboats have been in use for a very long time in many countries around the world. In the face of sea level rise (SLR), floating cities offer a clear advantage: they rise with the sea instead of being inundated.
 
+### Current Floating Cities
 Several floating city projects are already underway, including:
 - In the Netherlands, "Waterbuurt" is a floating neighborhood of nearly 100 connected floating houses, completed in 2010. This project demonstrates the viability of constructing floating urban areas. The residents describe a strong sense of community in their neighborhood and a connection with the water.
 - In Korea, "Busan Oceanix City" is a proposed sustainable floating urban area with large buildings, a zero-waste system, and its own energy production through solar and wave power. By additionally employing sea-reforestation systems, this project has the potential to become entirely carbon neutral [citation].
 - The "Maldives Floating City" project, if completed, would be the world's first floating island city. It aims to provide an alternative to living on sinking islands. By integrating sustainable construction practices, environmental care for the marine environment, local culture and community building, and resilience through dynamic adaptation and development, it has the potential to set a benchmark for future developments around the globe.
 
-## Speculations - marine lifestyles
-
-Island nations like the maledives wanting to embrace a floating lifestyle, permanently connected to the sea - as opposed to the high-rise buildings crammed on some of the larger islands - marks a return to a deeply nature-connected culture. While the traditional living environments are changing drastically and some of the cultural heritage of many regions of the world will inevitably be lost due to sea level rise (slr), living with water might mean forming new, deep connections to the maritime environment. Furthermore, living in connected networks of small floating buildings can create stronger communities, effectively more similar to villages than to cities.
+Island nations like the maledives wanting to embrace a floating lifestyle, permanently connected to the sea - as opposed to the high-rise buildings crammed on some of the larger islands - marks a return to a deeply nature-connected culture. While traditional living environments are changing drastically and some of the cultural heritage of many regions of the world will inevitably be lost to the rising sea, living with water might mean forming new, deep connections with the maritime environment. Moreover, living in interconnected networks of small floating buildings could foster stronger communities, resembling villages more than cities.
 
 ### New sea organisms
-Floating cities have a high potential of functioning similarly to organisms due the following factors:
-- Modular structure: Damaged modules can easily be repaired or replaced. Moules can be moved and re-connected, creating a dynamic, organically changing city structure.
-- Metabolism: Floating cities need to be planned with resource and waste management first in mind. By using solar and wave energy and including submarine gardens the cities can become useful species in the marine ecosystem.
-- Reproduction: This aspect is more speculative, but floating cities might as they grow dynamically split parts off, creating new cities, similarly to cell-level organisms. 
+Floating cities have a high potential to function similarly to organisms due the following factors:
+- Modular structure: Damaged modules can easily be repaired or replaced. Moules can be moved and reconnected, creating a dynamic, organically changing city structure.
+- Metabolism: Floating cities need to be designed with resource and waste management as a priority. By using solar and wave energy and incorporating submarine gardens, these cities can become useful species in the marine ecosystem.
+- Reproduction: This aspect is more speculative, but as floating cities grow, they might dynamically split off parts, creating new cities, similar to cellular organisms.
 
-### coral cities
+## Coral Cities and Submarine Lifestyles
+
+One of the significant challenges for life on Earth under climate change is the slow speed of evolutionary processes. A majority of species will not survive as they can't adapt quickly enough to their changing environments.
+
+As sea levels rise, not only are islands that host many unique species threatened, but submarine lifeforms are also at risk. Global warming is causing ocean temperatures to rise, creating conditions that many species cannot tolerate. Additionally, the increasing distance between the ocean floor and surface due to rising sea levels reduces the amount of light available in many areas.
+
+What if we could evolve fast enough to adapt to these changes? If islands become submerged, could human civilizations continue to inhabit the same islands, but below sea level instead of above? Corals would provide a multifunctional, renewable, and climate-positive building material for submarine infrastructure. Humanity could form much stronger bonds with their marine environment than ever before, by learning to coexist, cooperate, and communicate with many other lifeforms.

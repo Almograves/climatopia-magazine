@@ -6,7 +6,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
 
-    background-color: red; /*for debugging*/
+    /* background-color: red; */ /*for debugging*/
 }
 
 .cactusVisual-sky {
@@ -19,8 +19,8 @@
 .cactusVisual-sand {
     grid-row: 2 / 4;
 
-    background: rgb(106,28,13);
-    background: linear-gradient(0deg, rgba(106,28,13,1) 0%, rgba(210,137,18,1) 35%, rgb(244, 226, 190) 100%);
+    background: #661900;
+    background: linear-gradient(0deg, #661900 0%, #E69900 35%, rgb(244, 226, 190) 100%);
     
     display: flex;
     align-items: center;
@@ -32,6 +32,6 @@
 }
 
 #cactus {
-    --sectionColor1: #485d13;
+    --sectionColor1: #405900;
     --sectionColor2: linear-gradient(0deg, rgb(245, 250, 240) 10%, rgb(196, 204, 121) 100%);
 }

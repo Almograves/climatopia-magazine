@@ -6,7 +6,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
 
-    background-color: red; /*for debugging*/
+    /* background-color: red; */ /*for debugging*/
 }
 
 .atlantisVisual-sky {
@@ -19,8 +19,8 @@
 .atlantisVisual-sea {
     grid-row: 2 / 4;
 
-    background: rgb(35,2,41);
-    background: linear-gradient(0deg, rgba(35,2,41,1) 0%, rgba(58,57,166,1) 60%, rgb(112, 165, 226) 100%);
+    background: #330033;
+    background: linear-gradient(0deg, #330033 0%, rgba(58,57,166,1) 60%, rgb(112, 165, 226) 100%);
 
     display: flex;
     align-items: center;
@@ -32,8 +32,9 @@
 }
 
 #atlantis {
-    --sectionColor1: #1E90FF;
+    --sectionColor1: #0091FF;
     --sectionColor2: linear-gradient(0deg, rgba(237,236,255,1) 0%, rgba(143,209,255,1) 40%, rgb(75, 172, 224) 100%);
+    --sectionColor3: linear-gradient(0deg, #330033 0%, rgba(58,57,166,1) 60%, rgb(112, 165, 226) 100%);
 }
 
 /* #atlantis-chapterOpener-text {
@@ -79,7 +80,6 @@
     position: absolute;
     height: 180mm;
     width: 148mm;
-    background-color: chartreuse;
     z-index: -1;
     top: 0mm;
     left: -14mm;
@@ -95,7 +95,6 @@
     position: absolute;
     height: 180mm;
     width: 148mm;
-    background-color: chartreuse;
     z-index: -1;
     top: 0mm;
     left: -14mm;
@@ -135,10 +134,41 @@
 }
 
 #atlantis-float-i1 {
-    background-color: red;
+    /* background-color: red; */
     display: grid;
     grid-template-columns: repeat(11, 8mm);
     grid-template-rows: repeat(11, 8mm);
+}
+
+/* #atlantis-float-i1 div {
+    background: linear-gradient(0deg, #0091FF 0%, rgba(58,57,166,1) 100%);
+}
+
+#atlantis-float-i1 div:nth-child(2n) {
+    background: linear-gradient(180deg, #0091FF 0%, rgba(58,57,166,1) 100%);
+} */
+
+#atlantis-float-i1 div:nth-child(4n) {
+    background: linear-gradient(0deg, #0091FF 0%, rgba(58,57,166,1) 100%);
+}
+
+#atlantis-float-i1 div:nth-child(4n+1) {
+    background: linear-gradient(90deg, #0091FF 0%, rgba(58,57,166,1) 100%);
+}
+
+#atlantis-float-i1 div:nth-child(4n+2) {
+    background: linear-gradient(1800deg, #0091FF 0%, rgba(58,57,166,1) 100%);
+}
+
+#atlantis-float-i1 div:nth-child(4n+3) {
+    background: linear-gradient(270deg, #0091FF 0%, rgba(58,57,166,1) 100%);
+}
+
+#atlantis-float-i1 .pixel div {
+    width: 100%;
+    height: 100%;
+    border-radius: 3mm;
+    background: linear-gradient(0deg, #E69900 0%, rgb(255, 184, 164) 100%);
 }
 
 #atlantis-float-idHold1 {
@@ -148,4 +178,37 @@
 #atlantis-float-pHold2 {
     grid-column: 2 / 5;
     margin-left: 15mm;
+}
+
+#atlantis-float-pHold3 {
+    grid-column: 1 / 5;
+    margin-left: 28mm;
+}
+
+#atlantis-float-pHold4 {
+    grid-column: 1 / 5;
+}
+
+#atlantis-float-pHold4 ul {
+    margin-right: 10mm;
+    padding-left: 28mm;
+}
+
+#atlantis-coral-h3Hold1 {
+    grid-column: 1 / 3;
+}
+
+#atlantis-coral-pHold1 {
+    grid-column: 3 / 5;
+    margin-top: 7mm;
+}
+
+#atlantis-coral-pHold2 {
+    grid-column: 1 / 5;
+    margin-right: 28mm;
+}
+
+#atlantis-coral-pHold3 {
+    grid-column: 2 / 5;
+    margin-left: 30mm;
 }
