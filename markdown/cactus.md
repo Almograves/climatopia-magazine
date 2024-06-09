@@ -17,4 +17,8 @@ This trend of extreme water-endangering conditions is accelerating.
 The consequences of this trend are severe and far-reaching. Not only are already disatvantaged groups and populations especially affected by these developments, but no demographic or geographic group including the richest and most developed regions are spared from the threat of water scarcity. This situation calls for urgent action and adaptation strategies.
 
 
-## :
+## Lowering Consumption and Farming Without Water
+
+## Radical Reuse - Cyclic Systems
+
+## Water Worship - Understanding Water

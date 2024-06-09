@@ -3,10 +3,19 @@
 }
 
 .cover-block{
-    height: 120mm;
     width: 100%;
     position: absolute;
     z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-block-center {
+    width: 40mm;
+    height: 40mm;
+    border-radius: 20mm;
+    background-color: #FFFFFF;
 }
 
 @page:first {
@@ -43,13 +52,29 @@ h1 {
 #front-cover-block {
     margin-top: -10mm;
     background: linear-gradient(0deg, #FFFFFF 0%, #FF00FF 100%);
+    height: 182mm;
+}
+
+#front-cover-top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 130;
+    margin: 0mm 2mm;
+}
+
+#front-cover-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10pt;
+    margin: 74mm 2mm 0mm;
+    font-family: 'Sligoli-Micro', sans-serif;
 }
 
 .back-cover {
     position: relative;
 }
 
-@page:nth(20) {
+@page:nth(24) {
     margin: 7mm;
 
     @top-center {
@@ -76,4 +101,5 @@ h1 {
 #back-cover-block {
     background: linear-gradient(0deg, #FFFFFF 0%, #66FF99 100%);
     margin-top: -6mm;
+    height: 168mm;
 }

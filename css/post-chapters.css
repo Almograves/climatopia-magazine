@@ -1,0 +1,53 @@
+#glossary {
+    --sectionColor1: #FF00FF;
+    --sectionColor2: linear-gradient(0deg, #FFFFFF 0%, #66FF99 100%);
+    --sectionColor3: #66FF99;
+}
+
+#glossary-icon {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background-color: #FF00FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#glossary-icon div {
+    height: 40%;
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+
+.glossary-entry {
+    grid-column: span 2;
+    margin-top: 3mm;
+}
+
+.entry-h {
+    font-weight: bold;
+    border-bottom: 1mm dashed var(--sectionColor1);
+}
+
+.entry-ref {
+    font-family: 'VG5000', sans-serif;
+}
+
+.entry-ref::before {
+    content: "(see page ";
+}
+
+.entry-ref::after {
+    content: ")";
+}
+
+#glossary-h3Hold1 {
+    grid-column: 1 / 3;
+}
+
+#glossary-pHold1 {
+    grid-column: 2 / 5;
+    margin-right: 15mm;
+}

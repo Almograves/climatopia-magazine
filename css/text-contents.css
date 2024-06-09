@@ -148,3 +148,19 @@ ul {
     text-align: end;
     display: block;
 }
+
+.notice-wip {
+    grid-column: 1 / 5;
+    max-width: 120mm;
+    border: #66FF99 2mm dashed;
+    padding: 2mm;
+    font-family: 'VG5000', sans-serif;
+    font-size: 10pt;
+}
+
+.notice-wip div {
+    margin-top: 4mm;
+    font-family: 'Messapia', serif;
+    font-size: 15pt;
+    font-weight: bold;
+}

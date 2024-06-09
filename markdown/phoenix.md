@@ -17,7 +17,9 @@ This trend of weather and climate extreme events of all types is accelerating.
 The consequences of this trend are severe and far-reaching. All regions across the globe are experiencing unprecedently hot weather, posing serious threats to human health and ecosystems and disrupting societies and economies. This situation calls for urgent action and adaptation strategies.
 
 
-## :
+## Infernal Cities - Heat and Concrete
 
-## Speculations - floral solutions:
+## Floral Solutions and a New Skin
+
+## Going Nocturnal and Avoiding the Sun
 

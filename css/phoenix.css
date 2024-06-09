@@ -35,3 +35,18 @@
     --sectionColor1: #7D0024;
     --sectionColor2: linear-gradient(0deg, rgb(245, 250, 240) 10%, rgb(134, 217, 221) 100%);
 }
+
+#phoenix-h3Hold1 {
+    grid-column: 1 / 4;
+    margin-top: 10mm;
+}
+
+#phoenix-h3Hold2 {
+    grid-column: 1 / 4;
+    margin-top: 10mm;
+}
+
+#phoenix-h3Hold3 {
+    grid-column: 1 / 4;
+    margin-top: 10mm;
+}
