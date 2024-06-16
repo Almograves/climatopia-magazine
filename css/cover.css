@@ -41,7 +41,7 @@
 h1 {
     string-set: full-title attr(data-book-title);
     string-set: short-title content(text);
-    font-family: Messapia;
+    font-family: 'Messapia', serif;
     font-weight: normal;
     text-transform: uppercase;
     font-size: 48pt;
@@ -67,7 +67,7 @@ h1 {
     justify-content: space-evenly;
     font-size: 10pt;
     margin: 74mm 2mm 0mm;
-    font-family: 'Sligoli-Micro', sans-serif;
+    font-family: 'Sligoil-Micro', sans-serif;
 }
 
 .back-cover {

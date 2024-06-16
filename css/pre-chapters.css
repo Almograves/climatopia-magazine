@@ -46,7 +46,7 @@
 #table-of-contents {
     font-size: 10pt;
     letter-spacing: -0.1mm;
-    font-family: 'Sligoli-Micro', sans-serif;
+    font-family: 'Sligoil-Micro', sans-serif;
     margin: 0mm;
     display: grid;
     grid-template-columns: 6fr 1fr;
@@ -87,7 +87,7 @@
 }
 
 #climatopia-p1 {
-    font-family: 'Sligoli-Micro', sans-serif;
+    font-family: 'Sligoil-Micro', sans-serif;
     letter-spacing: -0.2mm;
     font-size: 12pt;
     margin: 3mm 10mm 3mm 5mm;
