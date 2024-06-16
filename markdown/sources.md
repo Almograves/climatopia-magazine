@@ -1,5 +1,11 @@
 # List of all sources
 
+## Inspirations:
+
+- Feminist Tech Principles: https://superrr.net/feministtech/principles/
+
+- Speculative Design: https://www.critical.design/post/what-is-speculative-design
+
 ## Section 1: Climatopia
 
 ## Section 2: Atlantis
@@ -15,8 +21,7 @@
 - 2.3 floating:
 
     - busan eceanix carbon neutral: https://www.sciencedirect.com/science/article/pii/S2352484722022466
-    - algorythms for floating city building: https://www.sciencedirect.com/science/article/abs/pii/S0957417423019784
-    -     
+    - algorythms for floating city building: https://www.sciencedirect.com/science/article/abs/pii/S0957417423019784 
 
 ## Section 3: Cactus
 
